@@ -1,0 +1,122 @@
+/* Адаптив */ 
+@media screen and (max-width: 1200px) {
+	.feature {
+		margin: 0 auto;
+	}
+	
+	.feature__title {
+		text-align: center;
+	}
+	
+	.feature__text {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.logo {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	
+	.offer {
+		text-align: center;
+	}
+	
+	.offer__text {
+		font-size: 14px;
+		margin: 20px auto;
+		width: auto;
+	}
+	
+	.icons {
+		justify-content: center;
+	}
+	
+	.icons__items:nth-child(3) {
+		margin-right: 0;
+	}
+	
+	.form__input {
+		width: 100%;
+		margin-right: 0;
+	}
+	
+	.form__btn {
+		width: 100%;
+		margin-top: 20px;
+	}
+	
+	.title__text {
+		width: auto;
+		font-size: 14px;
+	}
+	
+	.feature {
+		text-align: center;
+		justify-content: center;
+		display: flex;
+	}
+	
+	.feature:nth-child(2) {
+		float: right;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.feature__text {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 578px) {
+	.feature__block {
+		padding-bottom: 40px;
+	}
+	
+	.feature__title {
+		position: relative;
+		padding: 14px 0;
+	}
+	
+	.feature__icon {
+		position: absolute;
+		margin: -40px 0;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.menu {
+		flex-direction: column;
+	}
+	
+	.menu__item {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	
+	.iPad {
+		width: 100%;
+	}
+	
+	.feature__block {
+		padding-bottom: 5px;
+	}
+	
+	.feature {
+		text-align: center;
+		justify-content: center;
+		margin: 30px 0;
+	}
+	
+	.feature__title {
+		position: relative;
+		padding: 5px 0;
+	}
+	
+	.feature__icon {
+		margin: -60px 0;
+		position: absolute;
+	}
+}
